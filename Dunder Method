@@ -1,0 +1,10 @@
+class xyz:
+  def __init__(self,val):
+    self.val = val
+  def __add__( self,other):
+    return (self.val + other.val)
+
+
+a=xyz(10)
+b=xyz(5)
+print(a+b)
