@@ -1,0 +1,8 @@
+l=[0,4,7,8,24,35,96,47,1,2]
+larger = l[0]
+
+for i in l:
+    if i > larger:
+        larger = i
+
+print(larger)
